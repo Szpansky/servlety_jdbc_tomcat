@@ -1,0 +1,77 @@
+header {margin:10px; width:auto; height: auto; text-align:center; padding: 1px;border-radius: 25px;
+    border: 2px solid #f4511e;}
+
+nav { height : auto; width:auto; float:left; border:1px; border-radius: 25px;padding:5px; margin:10px;}
+nav p { padding:50px; margin:10px; }
+
+section nav { height : auto; width:auto; float:left;     border: 2px solid #f4511e;}
+nav p { padding:5px; margin:10px; }
+
+section nav.news{
+	margin:10px;
+	  height : auto; width:auto; float:bottom;
+	  	border-radius: 25px;
+    border: 2px solid #f4511e;
+}
+
+section div.mainContent{
+}
+
+section div.squareContent{
+    display: none;
+}
+
+section div.loginContent{
+    display: none;
+}
+
+section div.loginContent{
+    display: none;
+}
+
+
+section {margin:10px; text-align:justify;display:block;float:left;height:auto;width:100%;color:navy; background-color: white;}
+section h1 { color:black;font-size:25pt;text-align:center; }
+section h2 { color:black;font-size:12pt;text-align:center;}
+section h3 { color:black;font-size:10pt;text-align:justify;}
+section p.italic { font-style:italic; }
+
+footer {margin:10px; clear:both;text-align:center;color:blue;border-radius: 25px; width:auto;
+    border: 2px solid #f4511e; }
+
+dt { font-weight: bold; }
+dd { font-style: italic; }
+div.main { padding-left: 15px; }
+p.point { font-weight: bold; }
+p.text { padding-left: 30px; } 
+
+body {
+ 
+}
+
+.site {
+    max-width: 820px;
+    margin: auto;
+    padding: 10px;
+}
+
+.menu_button {
+    background: Transparent no-repeat;
+    border: none;
+    outline: none;
+    padding: 15px;
+}
+
+.menu_button:link, a:visited {
+    background-color: transparent;
+    color: black;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.menu_button:hover, a:active {
+    background-color: transparent;
+    text-decoration: underline;
+}
